@@ -2,51 +2,36 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/demo/",
   {
-    text: "博文",
-    icon: "pen-to-square",
-    prefix: "/posts/",
+    text: "JavaScript",
+    icon: "code",
+    prefix: "/posts/JavaScript/",
     children: [
-      {
-        text: "苹果",
-        icon: "pen-to-square",
-        prefix: "apple/",
-        children: [
-          { text: "苹果1", icon: "pen-to-square", link: "1" },
-          { text: "苹果2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
-        ],
-      },
-      {
-        text: "香蕉",
-        icon: "pen-to-square",
-        prefix: "banana/",
-        children: [
-          {
-            text: "香蕉 1",
-            icon: "pen-to-square",
-            link: "1",
-          },
-          {
-            text: "香蕉 2",
-            icon: "pen-to-square",
-            link: "2",
-          },
-          "3",
-          "4",
-        ],
-      },
-      { text: "樱桃", icon: "pen-to-square", link: "cherry" },
-      { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
+      { text: "实现继承方式", icon: "link", link: "实现继承方式" },
+      { text: "异步编程方案", icon: "bolt", link: "异步编程方案" },
     ],
   },
   {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
+    text: "浏览器原理",
+    icon: "globe",
+    prefix: "/posts/浏览器原理/",
+    children: [
+      { text: "渲染原理", icon: "paint-brush", link: "渲染原理" },
+      { text: "缓存机制", icon: "database", link: "缓存机制" },
+    ],
+  },
+  {
+    text: "前端工程化",
+    icon: "truck",
+    prefix: "/posts/前端工程化/",
+    children: [
+      { text: "Webpack构建原理", icon: "cube", link: "Webpack构建原理" },
+      { text: "Vite构建工具", icon: "rocket", link: "Vite构建工具" },
+    ],
+  },
+  {
+    text: "GitHub",
+    icon: "fa6-brands:github",
+    link: "https://github.com/F-K-MOOD/Variable-Frank",
   },
 ]);

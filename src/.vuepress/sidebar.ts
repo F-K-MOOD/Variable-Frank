@@ -4,23 +4,31 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "如何使用",
-      icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
-      children: "structure",
+      text: "JavaScript",
+      icon: "code",
+      prefix: "posts/JavaScript/",
+      children: [
+        { text: "实现继承方式", icon: "link", link: "实现继承方式" },
+        { text: "异步编程方案", icon: "bolt", link: "异步编程方案" },
+      ],
     },
     {
-      text: "文章",
-      icon: "book",
-      prefix: "posts/",
-      children: "structure",
+      text: "浏览器原理",
+      icon: "globe",
+      prefix: "posts/浏览器原理/",
+      children: [
+        { text: "渲染原理", icon: "paint-brush", link: "渲染原理" },
+        { text: "缓存机制", icon: "database", link: "缓存机制" },
+      ],
     },
-    "intro",
     {
-      text: "幻灯片",
-      icon: "person-chalkboard",
-      link: "https://ecosystem.vuejs.press/zh/plugins/markdown/revealjs/demo.html",
+      text: "前端工程化",
+      icon: "truck",
+      prefix: "posts/前端工程化/",
+      children: [
+        { text: "Webpack构建原理", icon: "cube", link: "Webpack构建原理" },
+        { text: "Vite构建工具", icon: "rocket", link: "Vite构建工具" },
+      ],
     },
   ],
 });

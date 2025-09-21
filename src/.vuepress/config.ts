@@ -6,8 +6,8 @@ export default defineUserConfig({
   base: "/Variable-Frank/",
 
   lang: "zh-CN",
-  title: "博客演示",
-  description: "vuepress-theme-hope 的博客演示",
+  title: "变量弗兰克",
+  description: "",
 
   theme,
 

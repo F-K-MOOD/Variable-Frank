@@ -1,48 +1,41 @@
----
-home: true
-layout: Blog
-icon: house
-title: 博客主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: 
-heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
-projects:
-  - icon: folder-open
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+# 404 found
 
-  - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+欢迎来到我的前端技术博客！
 
-  - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
+## 📚 主要内容
 
-  - icon: newspaper
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
+### JavaScript
+- [实现继承方式](./posts/JavaScript/实现继承方式.md) - JavaScript各种继承方式的详细解析
+- [异步编程方案](./posts/JavaScript/异步编程方案.md) - 从回调到async/await的完整异步编程解决方案
 
-  - icon: user-group
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
+### 浏览器原理
+- [渲染原理](./posts/浏览器原理/渲染原理.md) - 浏览器渲染流程、重排重绘、事件循环等核心原理
+- [缓存机制](./posts/浏览器原理/缓存机制.md) - 浏览器缓存策略、Service Worker、存储机制
 
-  - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
+### 前端工程化
+- [Webpack构建原理](./posts/前端工程化/Webpack构建原理.md) - Webpack核心概念、构建流程、优化策略
+- [Vite构建工具](./posts/前端工程化/Vite构建工具.md) - Vite特性、配置、性能优化和最佳实践
 
-footer: 自定义你的页脚文字
----
+## 🎯 学习目标
 
-这是一个博客主页的案例。
+通过这个博客，您将掌握：
 
-要使用此布局，你应该在页面前端设置 `layout: Blog` 和 `home: true`。
+1. **JavaScript核心技术**：继承机制、异步编程的深度理解
+2. **浏览器工作原理**：渲染流程、缓存机制、性能优化
+3. **前端工程化**：构建工具、打包优化、开发效率提升
+4. **最佳实践**：现代前端开发的标准和规范
 
-相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home.html)。
+## 💡 特色
+
+- **系统性强**：按照技术领域分类，便于系统学习
+- **实用性强**：每个概念都配有实际代码示例
+- **循序渐进**：从基础到高级，逐步深入
+- **现代技术**：使用最新的前端技术和工具
+
+## 🚀 技术栈
+
+- **前端框架**：Vue 3, React
+- **构建工具**：Vite, Webpack
+- **开发语言**：JavaScript, TypeScript
+- **样式方案**：CSS3, Sass, Less
+- **工程化**：ESLint, Prettier, Husky
