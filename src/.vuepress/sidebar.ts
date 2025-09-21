@@ -10,6 +10,7 @@ export default sidebar({
       children: [
         { text: "实现继承方式", icon: "link", link: "实现继承方式" },
         { text: "异步编程方案", icon: "bolt", link: "异步编程方案" },
+        { text: "this指向问题", icon: "anchor", link: "this指向问题" },
       ],
     },
     {
