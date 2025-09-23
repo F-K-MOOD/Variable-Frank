@@ -13,11 +13,10 @@ export default navbar([
   },
   {
     text: "浏览器原理",
-    icon: "globe",
+    icon: "play",
     prefix: "/posts/浏览器原理/",
     children: [
-      { text: "渲染原理", icon: "paint-brush", link: "渲染原理" },
-      { text: "缓存机制", icon: "database", link: "缓存机制" },
+      { text: "渲染进程", icon: "play", link: "渲染进程" },
     ],
   },
   {

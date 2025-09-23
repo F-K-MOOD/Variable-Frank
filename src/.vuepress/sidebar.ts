@@ -16,12 +16,11 @@ export default sidebar({
     },
     {
       text: "浏览器原理",
-      icon: "globe",
+      icon: "play",
       prefix: "posts/浏览器原理/",
       collapsible:true,
       children: [
-        { text: "渲染原理", icon: "paint-brush", link: "渲染原理" },
-        { text: "缓存机制", icon: "database", link: "缓存机制" },
+        { text: "渲染进程", icon: "play", link: "渲染进程" },
       ],
     },
     {
@@ -41,6 +40,15 @@ export default sidebar({
       collapsible:true,
       children: [
         { text: "请求的二次封装", icon: "link", link: "请求的二次封装" },
+      ],
+    },
+        {
+      text: "Git工作流",
+      icon: "rocket",
+      prefix: "posts/Git工作流/",
+      collapsible:true,
+      children: [
+        { text: "误上传node_modules", icon: "rocket", link: "误上传node_modules" },
       ],
     },
   ],
